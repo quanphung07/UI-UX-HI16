@@ -1,0 +1,23 @@
+.table{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+
+    div{
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .table-first{
+        width: 8%;
+        padding: 10px 15px;
+    }
+    .table-second{
+        width: 67%;
+        padding: 10px 50px 10px 0px;
+    }
+    .table-three{
+        width: 25%;
+        color: rgba($color: #000000, $alpha: 0.75);
+    }
+}
